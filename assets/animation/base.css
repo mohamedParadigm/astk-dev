@@ -1,0 +1,88 @@
+
+.content {
+	position: relative;
+	counter-reset: figure; 
+}
+
+.item {
+	max-width: 100%;
+	position: relative;
+	will-change: transform;
+}
+
+.item:nth-child(even)::before {
+	right: 0;
+}
+
+.item__img-wrap {
+	--aspect-ratio: 1/1.5;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	will-change: transform;
+}
+
+.item:first-child .item__img-wrap {
+	--aspect-ratio: 8/10;
+        /*--image: url(../img/wo1.webp);*/
+}
+
+.item:nth-child(2) .item__img-wrap {
+	--aspect-ratio: 120/76;
+}
+
+.item:nth-child(3) .item__img-wrap {
+	--aspect-ratio: 60/75;
+}
+
+.item:nth-child(4) .item__img-wrap {
+	--aspect-ratio: 900/505;
+}
+
+.item:nth-child(5) .item__img-wrap {
+	--aspect-ratio: 6/8;
+}
+
+.item:nth-child(6) .item__img-wrap {
+	width: calc(100vw - 2rem);
+	--aspect-ratio: 1500/844;
+}
+
+.item:nth-child(7) .item__img-wrap {
+	width: 900px;
+	--aspect-ratio: 1000/749;
+}
+
+.item:nth-child(8) .item__img-wrap {
+	width: 900px;
+	--aspect-ratio: 1000/562;
+}
+
+.item:nth-child(9) .item__img-wrap {
+	--aspect-ratio: 60/75;
+}
+
+.item__img {
+	
+	--overflow: 40px;
+	height: calc(100% + (2 * var(--overflow)));
+	top: calc( -1 * var(--overflow));
+	width: 100%;
+	position: absolute;
+	background-image: var(--image);
+	background-size: cover;
+	background-position: 50% 0%;
+	will-change: transform;
+}
+
+.item__img--t1 {
+	--overflow: 60px;
+}
+
+.item__img--t2 {
+	--overflow: 80px;
+}
+
+.item__img--t3 {
+	--overflow: 120px;
+}
