@@ -80,7 +80,7 @@ time {
   display: block;
 }
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap'); */
-@font-face{
+@font-face {
   /*src: url(../fonts/Phosb___.ttf);*/
   /* src: url(../fonts/Poppins-Bold.ttf); */
   src: url(../fonts/Martel-Bold.ttf);
@@ -88,25 +88,25 @@ time {
   font-family: phosb;
   display: swap;
 }
-@font-face{
-/* src: url(../fonts/JosefinSans-Light.ttf); */
-/* src: url(../fonts/Martel-Light.ttf); */
-src: url(../fonts/Poppins-Regular.ttf);
-/* src: url(../fonts/Raleway-Regular.ttf); */
+@font-face {
+  /* src: url(../fonts/JosefinSans-Light.ttf); */
+  /* src: url(../fonts/Martel-Light.ttf); */
+  src: url(../fonts/Poppins-Regular.ttf);
+  /* src: url(../fonts/Raleway-Regular.ttf); */
   font-family: Josefin;
   display: swap;
 }
-@font-face{
-    /* src: url(../fonts/JosefinSans-Medium.ttf); */
-src: url(../fonts/Martel-Regular.ttf);
+@font-face {
+  /* src: url(../fonts/JosefinSans-Medium.ttf); */
+  src: url(../fonts/Martel-Regular.ttf);
   font-family: Josefin-bold;
   display: swap;
 }
-@font-face{
-/* src: url(../fonts/Roboto-Regular.ttf); */
-src: url(../fonts/Poppins-Light.ttf);
-font-family: roboto;
-display: swap;
+@font-face {
+  /* src: url(../fonts/Roboto-Regular.ttf); */
+  src: url(../fonts/Poppins-Light.ttf);
+  font-family: roboto;
+  display: swap;
 }
 html {
   -webkit-text-size-adjust: none;
@@ -402,19 +402,27 @@ a {
   -ms-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
 }
-.login-form .text-input{
+.login-form .text-input {
   background-color: #f8f8f8;
 }
-.login-form .login-form__small-text a{
+.login-form .login-form__small-text a {
   color: #8b8b8b;
 }
 .text-input:focus {
   border-color: #000;
 }
-.text-input[type="tel"],.text-input[type="password"],#password-field,#password-field2,#password-field3{
+.text-input[type="tel"],
+.text-input[type="password"],
+#password-field,
+#password-field2,
+#password-field3 {
   font-family: roboto;
 }
-.text-input[type="tel"]::-webkit-input-placeholder,.text-input[type="password"]::-webkit-input-placeholder,#password-field::-webkit-input-placeholder,#password-field2::-webkit-input-placeholder,#password-field3::-webkit-input-placeholder{
+.text-input[type="tel"]::-webkit-input-placeholder,
+.text-input[type="password"]::-webkit-input-placeholder,
+#password-field::-webkit-input-placeholder,
+#password-field2::-webkit-input-placeholder,
+#password-field3::-webkit-input-placeholder {
   font-family: Josefin;
 }
 .textarea {
@@ -990,7 +998,7 @@ button {
 .wishlist__add.notify {
   margin-right: 20px;
   padding-left: 19px;
-  color:#C4836E
+  color: #c4836e;
 }
 .desktop .add-button:hover {
   color: #c8c3c2;
@@ -1206,7 +1214,7 @@ button {
 .header__col,
 .header__left,
 .header__right {
-  padding: 0 20px;
+  padding: 0 12px;
 }
 .header__left {
   width: 75%;
@@ -1507,7 +1515,7 @@ span.hi-user {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-transform: capitalize;
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: #000;
   border-top: 2px solid #f8f8f8;
   -webkit-transition: 0.2s ease-in-out;
@@ -1554,7 +1562,7 @@ span.hi-user {
   font-size: 1.25rem;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'phosb';
+  font-family: "phosb";
 }
 /* End of Header */
 .hide-mob {
@@ -3980,9 +3988,7 @@ ul.sizes li:hover {
   background-size: cover;
 }
 .image-2 {
-
   margin: 0 28px 0 28px;
- 
 }
 .inner-deal__subtitle {
   padding: 0 0 32px;
@@ -4701,7 +4707,7 @@ ul.sizes li:hover {
 .product__text {
   padding: 0;
   font-size: 13px;
-  font-family:roboto ;
+  font-family: roboto;
 }
 .detail-info-background h6 {
   padding-bottom: 10px;
@@ -6176,7 +6182,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
   padding-top: 3px;
   font-size: 16px;
 }
-.share-with .shared-num{
+.share-with .shared-num {
   font-family: roboto;
 }
 .wishlist {
@@ -6187,9 +6193,8 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
   padding: 0 0 15px;
   border-bottom: 1px solid rgba(68, 68, 68, 0.1);
 }
-.wishlist-page .wishlist__item{
+.wishlist-page .wishlist__item {
   border-bottom: 1px solid rgb(196 131 110 / 50%);
-
 }
 .wishlist__item:last-child {
   margin: 0;
@@ -6267,12 +6272,12 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
   left: 0;
   width: 100%;
   text-align: center;
-  background: #C4836E;
+  background: #c4836e;
   font-size: 13px;
   color: #fff;
   line-height: 20px;
   padding-top: 3px;
-  font-family: 'roboto';
+  font-family: "roboto";
 }
 .desktop .wishlist__image-link:hover:before {
   opacity: 1;
@@ -6355,7 +6360,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
 }
 
 .wishlist-page .wishlist__link {
-  color: #C4836E;
+  color: #c4836e;
 }
 .wishlist__link {
   color: #000;
@@ -6435,7 +6440,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
   margin: 0 21px 5px 0;
   padding: 0 19px 0 0;
   position: relative;
-  font: 11px/1 'roboto';
+  font: 11px/1 "roboto";
 }
 .wishlist-info__col:after {
   content: "";
@@ -6900,11 +6905,10 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
 .promo-form__button,
 .promo-form__input {
   margin: 0;
-  font-family: 'roboto';
+  font-family: "roboto";
 }
 .promo-form__input::-webkit-input-placeholder {
-
-  font-family: 'Josefin';
+  font-family: "Josefin";
 }
 .promo-form__button .button__text {
   padding: 0 15px;
@@ -6982,7 +6986,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
 }
 .your-order__bottom-text {
   display: block;
-  font:17px/28px phosb;
+  font: 17px/28px phosb;
 }
 .your-order__bottom-price {
   display: block;
@@ -7216,10 +7220,8 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-
 }
 .checkout-form p {
-
   font-family: roboto;
 }
 .checkout-form p.animsition-link {
@@ -7227,13 +7229,12 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
   font-weight: 600;
   margin-bottom: 1px;
 }
-.checkout-form__cols p  {
+.checkout-form__cols p {
   flex: 100%;
   padding: 0 20px;
   font-family: roboto;
 }
-.checkout-form__cols p b{
- 
+.checkout-form__cols p b {
   font-family: Josefin;
 }
 .checkout-form__col {
@@ -7360,11 +7361,11 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
   flex-wrap: wrap;
   flex-direction: column;
 }
-.payment__list .your-order__price{
+.payment__list .your-order__price {
   font-family: roboto;
   font-size: 14px;
 }
-.payment__list .radio__text span{
+.payment__list .radio__text span {
   font-family: roboto;
 }
 .payment__radio {
@@ -7445,15 +7446,14 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
 .thanks__top-text {
   max-width: 400px;
   padding: 0 0 20px;
-  font:15px/34px roboto;
+  font: 15px/34px roboto;
 }
 .thanks__text {
   padding: 0 0 24px;
   font-family: roboto;
- 
 }
-.thanks__text b{
-  color: #C4836E;
+.thanks__text b {
+  color: #c4836e;
 }
 .slick-slider {
   position: relative;
@@ -9264,7 +9264,7 @@ body.compensate-for-scrollbar .header {
   /*    background: #f8f8f8;*/
   padding: 5px;
   font-size: 12px;
-    font-family: 'roboto';
+  font-family: "roboto";
 }
 .user-nav__link .des {
   display: none;
@@ -9774,7 +9774,7 @@ p.color-gray-dark {
   border-right: 1px solid #d7d7d7cc;
 }
 #accordionExample .color-dark {
-  font-family: 'Josefin';
+  font-family: "Josefin";
   font-weight: 700;
 }
 .alert {
@@ -9901,7 +9901,7 @@ a.link:hover::before {
 .personal-info {
   display: contents;
 }
-.personal-info .col.text-right p{
+.personal-info .col.text-right p {
   font-family: roboto;
 }
 .total-balance {
@@ -10192,25 +10192,24 @@ a:hover {
   }
   .main-slider__content {
     padding: 0 0 0 1000px;
-}
-.load-icon:before {
-  content: "";
-  width: 440px;
-}
+  }
+  .load-icon:before {
+    content: "";
+    width: 440px;
+  }
 }
 @media (min-width: 1700px) and (max-width: 2000px) {
- 
   .main-slider__title {
     font-size: 55px;
     right: 8px;
   }
   .main-slider__content {
     padding: 0 0 0 1100px;
-}
-.load-icon:before {
-  content: "";
-  width: 440px;
-}
+  }
+  .load-icon:before {
+    content: "";
+    width: 440px;
+  }
 }
 @media screen and (max-width: 1450px) {
   .first-screen,
@@ -11922,7 +11921,6 @@ a:hover {
 }
 /*@media screen and (max-width: 767px) {*/
 @media screen and (max-width: 900px) {
- 
   body {
     font-size: 15px;
     line-height: 25px;
@@ -12958,7 +12956,6 @@ a:hover {
   }
   .contacts__number {
     margin: 0 0 5px;
-   
   }
   .collections-page {
     margin-top: 0;
@@ -13219,7 +13216,7 @@ a:hover {
   .address-roboto .radio__icon {
     top: -13px;
   }
- .radio__icon {
+  .radio__icon {
     top: 3px;
   }
   .payment {
@@ -13997,13 +13994,11 @@ a:hover {
   text-transform: capitalize;
   font-size: 2.5rem;
   line-height: 1;
-  font-family: 'Josefin';
+  font-family: "Josefin";
   font-weight: 800;
-
 }
-@media (max-width:900px){
+@media (max-width: 900px) {
   .new-collection-item .info .label {
-  
     font-size: 1.5rem;
   }
 }
@@ -14080,7 +14075,7 @@ a:hover {
     height: 350px;
     object-fit: cover;
     margin: 0;
-}
+  }
 }
 /* End of Seamless */
 
@@ -14105,7 +14100,7 @@ a:hover {
     height: 485px;
   }
 }
-.js-faq-hide .checkbox__text{
+.js-faq-hide .checkbox__text {
   font-family: roboto;
 }
 @media (max-width: 900px) {
@@ -14113,9 +14108,11 @@ a:hover {
     display: flex;
     gap: 0.8rem;
     flex-wrap: wrap;
-}
-.new-collection-mob{ position: relative;}
-/* .new-collection-mob::after{
+  }
+  .new-collection-mob {
+    position: relative;
+  }
+  /* .new-collection-mob::after{
   content: "";
   position: absolute;
   top:0;
@@ -14128,18 +14125,18 @@ a:hover {
     background-repeat: no-repeat;
     filter: blur(3px);
 } */
-.new-collection-mob .p-mob{
-  /* padding: 20px; */
-  padding: 0;
-}
-.deal-block {
-  background-image: url(../img/background.webp);
-  background-position: left;
- }
-.deal-block__title {
-   color: #fff;
-}
-.deal-block__subtitle {
-  color: #ffd;
-}
+  .new-collection-mob .p-mob {
+    /* padding: 20px; */
+    padding: 0;
+  }
+  .deal-block {
+    background-image: url(../img/background.webp);
+    background-position: left;
+  }
+  .deal-block__title {
+    color: #fff;
+  }
+  .deal-block__subtitle {
+    color: #ffd;
+  }
 }
